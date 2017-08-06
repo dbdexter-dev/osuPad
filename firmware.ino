@@ -15,8 +15,6 @@ void setup()
 
 	#ifdef DEBUG
 	Serial.begin(9600);
-	while(!(Serial.available())
-		delay(10);
 	#endif
 
 	// Initialize LEDs
